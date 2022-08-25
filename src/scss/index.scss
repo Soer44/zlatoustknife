@@ -407,13 +407,14 @@
 }
 .sale-products {
 	@include adaptiveValue("padding-top", 120, 40);
-	@include adaptiveValue("padding-bottom", 120, 40);
+	// @include adaptiveValue("padding-bottom", 120, 40);
 	&_no-bottom {
 		padding-bottom: 0;
 	}
 }
 //========================================================================================================================================================
 .articles-module {
+	
 	@include adaptiveValue("margin-bottom", 120, 40);
 	// .articles-module__container
 	&__container {

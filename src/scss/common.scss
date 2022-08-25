@@ -249,15 +249,7 @@
 	padding: rem(45) 0px 0px 0px;
 	position: relative;
 	background: url("@img/new-products/bg.jpg") bottom / cover no-repeat;
-	&::before {
-		content: "";
-		background-color: #fff;
-		height: 46px;
-		position: absolute;
-		right: 0;
-		top: 0;
-		width: percent(1030, 1920);
-	}
+
 	// .products-new__inner
 	&__inner {
 		@include adaptiveValue("padding-top", 55, 20);

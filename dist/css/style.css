@@ -1176,15 +1176,6 @@ body.popup-show::after {
   position: relative;
   background: url("../img/new-products/bg.jpg") bottom/cover no-repeat;
 }
-.products-new::before {
-  content: "";
-  background-color: #fff;
-  height: 46px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 53.6458333333%;
-}
 @media (min-width: 101.25em) {
   .products-new__inner {
     padding-top: 3.4375rem;
@@ -3044,21 +3035,6 @@ body.popup-show::after {
 @media (max-width: 20em) {
   .sale-products {
     padding-top: 2.5rem;
-  }
-}
-@media (min-width: 101.25em) {
-  .sale-products {
-    padding-bottom: 7.5rem;
-  }
-}
-@media (min-width: 20em) and (max-width: 101.25em) {
-  .sale-products {
-    padding-bottom: calc(2.5rem + 5 * (((100vw - 20rem)) / ((81.25))));
-  }
-}
-@media (max-width: 20em) {
-  .sale-products {
-    padding-bottom: 2.5rem;
   }
 }
 .sale-products_no-bottom {

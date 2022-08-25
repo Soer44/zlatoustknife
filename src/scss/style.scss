@@ -137,13 +137,13 @@ body {
 @import "footer";
 
 // Подключение стилей отдельных страниц
-@import "home";
+@import "index";
 @import "catalog";
 @import "product";
 
 .page {
-	// .page_home
-	&_home {
+	// .page_index
+	&_index {
 	}
 	// .page_inner
 	&_inner {
